@@ -35,7 +35,7 @@ the fonts i am going to use are open sans and cccccc.
 ### home page
 
 in the header there will be the logo and the nav. the nav will include home, about, contact, and a fake galary.
-in the body there will be: a brief description of the farm with a video background, location detailes with a table of hours, and a small gallarie of photos.
+in the body there will be: a brief description of the farm with a video background, location detailes with a table of hours, a call to action, and a small gallarie of photos.
 in the footer there will be: a call to action, a disclaimer, and some social links.
 
 ### about page

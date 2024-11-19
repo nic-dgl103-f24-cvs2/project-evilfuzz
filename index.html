@@ -4,61 +4,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" />
-    ***
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
     <header>
       <img src="images/logo.png" alt="kehler vegtables logo" />
       <nav>
-        <ul>
+        <ul id="nav-items">
           <li><a href="index.html">home</a></li>
           <li><a href="about.html">about</a></li>
           <li><a href="contact.html">contact</a></li>
           <li><a href="">gallary</a></li>
         </ul>
+        <a class="toggle" onclick="showNav()"
+          ><i class="fa fa-bars" aria-hidden="true"></i
+        ></a>
       </nav>
     </header>
     <main>
-      <section class="homeintro">
-        <iframe
-          width="420"
-          hight="315"
-          src="https://youtu.be/DK-XTP7eiaw?autoplay=1&mute=1"
-        >
-        </iframe>
-        <video
-          id="background-video"
-          autoplay
-          loop
-          muted
-          title="Video of the forest"
-        >
-          <source src="https://youtu.be/DK-XTP7eiaw" type="video/ogg" />
-          <source src="https://youtu.be/DK-XTP7eiaw" type="video/mp4" />
-        </video>
-        <h1>Kehler Vegetable Company</h1>
-        <p>
-          The Kehler Vegetable Company is a small family farm in black creek. we
-          love growing great food for our community! We offer fresh vegetables,
-          berries, squash, and non-GMO eggs at our farmstand.
-        </p>
-        <p>Visit us today!</p>
-      </section>
-      <section class="homelocat">
-        <h2>Where can you find us?</h2>
-        <p>We are found at 8083 n island highway, black creek, BC.</p>
-      </section>
-
-      <section class="homepic">
-        <img src="images/produce1.jpg" alt="produce for sale" />
-        <img src="images/farmers.jpg" alt="the farmers responsible" />
-        <img src="images/produce2.jpg" alt="produce for sale" />
-      </section>
+      <div class="homeintro">
+        <section class="content">
+          <h1>Kehler Vegetable Company</h1>
+          <p>
+            The Kehler Vegetable Company is a small family farm in black creek.
+            we love growing great food for our community! We offer fresh
+            vegetables, berries, squash, and non-GMO eggs at our farmstand.
+          </p>
+          <p>Visit us today!</p>
+        </section>
+      </div>
+      <div class="homelocat">
+        <section class="content">
+          <h2>Where can you find us?</h2>
+          <p>We are found at 8083 n island highway, black creek, BC.</p>
+        </section>
+      </div>
+      <div class="homeact">
+        <section class="content">
+          <h2>visit us today!</h2>
+          <p>
+            Our produce is also available through wholesale order. Please
+            contact us for more information.
+          </p>
+        </section>
+      </div>
+      <div class="homepic">
+        <section class="content">
+          <img src="images/produce1.jpg" alt="produce for sale" />
+          <img src="images/farmers.jpg" alt="the farmers responsible" />
+          <img src="images/produce2.jpg" alt="produce for sale" />
+        </section>
+      </div>
     </main>
     <footer>
       <p>visit us today!</p>
-      <p>social links</p>
+      <div class="footflex">
+        <a href="https://www.facebook.com/kehlervegetables"
+          ><img src="images/facebooklogo.png" alt="facebook"
+        /></a>
+        <a href="https://www.instagram.com/kehlervegetables/#"
+          ><img src="images/instalogo.png" alt="intagram"
+        /></a>
+      </div>
       <p>© 2018</p>
       <p>
         this is not the kehler vegetable official website. this site was made by
@@ -67,5 +85,12 @@
         website.
       </p>
     </footer>
+
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
   </body>
 </html>
