@@ -22,7 +22,8 @@ the hero and header are merged and take up so much of the screen that i didnt ev
 
 ## the look and feel i will be going for
 
-i will be going for a homey, aproachable mood, using similar colours to the original website; dark green, light green, white, and black.
+i will be going for a homey, aproachable mood, using similar colours to the original website; dark green(#323F24), light green (#5C8039), white, and black.
+
 some inpiration i've found: https://lentelusfarms.com/ it is a website for a similar buisness, and provides is very effective.
 ![lentelus farms](images/Screenshot%202024-11-13%20083058.png)
 https://www.shamrockfarm.ca/ a similar website that conveys a nice personal feel.
@@ -34,7 +35,7 @@ the fonts i am going to use are open sans and cccccc.
 ### home page
 
 in the header there will be the logo and the nav. the nav will include home, about, contact, and a fake galary.
-in the body there will be: a brief description of the farm, location detailes with a video background and table of hours, and a small gallarie of photos.
+in the body there will be: a brief description of the farm with a video background, location detailes with a table of hours, and a small gallarie of photos.
 in the footer there will be: a call to action, a disclaimer, and some social links.
 
 ### about page
