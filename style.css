@@ -50,7 +50,9 @@ justify-content: center;}
 
 .homeintro {background-image: url(images/lettuce.jpg);
 padding: 20% 0;}
-
+.hi {padding: 5%;
+background-color: rgba(0,0,0,.5);
+border-radius: 5px;}
 
 
 
