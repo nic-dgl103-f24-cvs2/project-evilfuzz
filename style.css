@@ -68,7 +68,7 @@ border-radius: 5px;}
 .homelocat {padding: 15% 0;}
 .hl {display: flex;
 justify-content: space-between;}
-.hl div {padding-right: 5%;
+.hl div {padding-right: 5px;
 ;}
 
 /*             home action              */
@@ -82,7 +82,15 @@ padding: 10% 0;}
 
 .hp img {width: 100%;}
 
+/*             contact info              */
 
+.coninf {padding: 15% 0;}
+
+/*             contact map              */
+
+iframe {width: 100%;}
+
+/*             contact form              */
 
 
 
