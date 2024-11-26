@@ -25,6 +25,7 @@ a {color: white;
 
 
 /*             header              */
+
 header {display: flex;
     justify-content: space-between;
     align-items:flex-start;
@@ -34,11 +35,9 @@ object-fit: contain;}
 nav {padding: 50px 50px 0 0;}
 nav ul {display: none;
 }
-
-
 .show-items {
-    display: block;
-  }
+    display: block;}
+
 /*             footer              */
 
 footer {text-align: center;
@@ -73,10 +72,12 @@ justify-content: space-between;}
 
 /*             home action              */
 
-.homeact {background-color: black;}
+.homeact {background-color: black;} 
+/*moved video to about bc i was struggling with it*/
 .ha {text-align: center;
 padding: 10% 0;}
-.ha p {color: #5C8039;}
+.ha p {color: #5c8039;
+font-weight: 700;}
 
 /*             home photos              */
 
@@ -92,14 +93,15 @@ iframe {width: 100%;}
 
 /*             contact form              */
 
-
-fieldset {display: flex;} /*look at flex cheetsheet*/
+/*i got the format wrong the first time*/
+fieldset {display: flex;} 
 .field1 {flex-direction: column;}
 .field1 input {display: block;}
 textarea {width: 80%;}
 .conform {padding: 20% 0;}
 
 /*             about hero              */
+
 #background-video,
 .video-overlay {
   width: 100vw;
@@ -108,23 +110,25 @@ textarea {width: 80%;}
   position: absolute;
   left: 0;
   top: 0;
-  z-index: -1;
-}
+  z-index: -1;}
 .video-overlay {
   background-color: black;
-  opacity: 0.4;
-}
+  opacity: 0.4;}
+/*this took a bit but i got it eventually!*/
+.abht {padding: 15% 0;
+  text-align: center;}
+.abht h1 {padding: 5%;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 5px;}
 
-.abht {padding: 18% 0;}
 /*             about info              */
 
-.abin {padding: 15% 0;
-}
+.abin {padding: 15% 0;}
 .abcontain {background-color: #323F24;}
+/*added background colour to hide video*/
 
 
-
-/*              laptop/descktops                     */
+/*----------------laptop/descktops----------------*/
 
   @media only screen and (min-width: 992px) {
 
@@ -142,9 +146,11 @@ nav li {padding: 0 50px;}
 /*             footer              */
 
 footer {padding: 2% 0;}
-.social {padding: 1% 0;}
-
-
+.social {padding: 1% 0;
+  transition: all 2s ease-in-out; 
+  transition-delay: 0s;}
+.social:hover {background-color: white;}
+/*struggled with this a bit, didnt understand what parts were neccecary from the codepen*/
 
 /*             home location              */
 .homelocat {padding: 10% 0;}
@@ -169,5 +175,14 @@ footer {padding: 2% 0;}
 .conform {padding: 10% 0;}
 .field1 {flex-direction: row;
 justify-content: space-between;}
+
+/*             about hero              */
+
+.abht {padding: 10% 0;}
+
+/*             about info              */
+
+.abin {padding: 10% 0;
+}
 
 }
