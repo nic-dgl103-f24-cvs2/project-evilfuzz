@@ -93,19 +93,27 @@
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </section>
-      <section class="content">
+      <section class="content conform">
         <form action="#" method="post">
-          <fieldset>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" />
-            <label for="phone">Phone Number </label>
-            <input type="tel" id="phone" name="phone-number" />
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email-adress" />
+          <fieldset class="field1">
+            <label
+              >Name
+              <input type="text" name="name" />
+            </label>
+            <label
+              >Phone Number
+              <input type="tel" name="phone-number" />
+            </label>
+            <label
+              >Email
+              <input type="email" name="email-adress" />
+            </label>
           </fieldset>
-          <label for="message">Your message</label>
-          <textarea name="message" id="message"></textarea>
-          <input type="submit" class="btn" value="submit" />
+          <fieldset>
+            <label for="message">Your message</label>
+            <textarea name="message" id="message"></textarea>
+            <input type="submit" class="btn" value="submit" />
+          </fieldset>
         </form>
       </section>
     </main>

@@ -93,6 +93,9 @@ iframe {width: 100%;}
 /*             contact form              */
 
 
+fieldset {display: flex;} /*look at flex cheetsheet*/
+textarea {width: 80%;}
+.conform {padding: 20% 0;}
 
 /*              laptop/descktops                     */
 
@@ -123,5 +126,13 @@ footer {padding: 2% 0;}
 .hp {display: flex;}
 .hp img {width: 33.3%;
 }
+
+/*             contact info              */
+
+.coninf {padding: 10% 0;}
+
+/*             contact form              */
+
+.conform {padding: 10% 0;}
 
 }
