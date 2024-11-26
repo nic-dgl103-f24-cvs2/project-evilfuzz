@@ -97,6 +97,26 @@ fieldset {display: flex;} /*look at flex cheetsheet*/
 textarea {width: 80%;}
 .conform {padding: 20% 0;}
 
+/*             about hero              */
+#background-video,
+.video-overlay {
+  width: 100vw;
+  height: 40%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.abhero {background-color: rgba(49, 62, 35, .5);}
+.abht {padding: 18% 0;}
+/*             about info              */
+
+.abin {padding: 15% 0;}
+
+
+
+
 /*              laptop/descktops                     */
 
   @media only screen and (min-width: 992px) {
