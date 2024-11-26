@@ -94,6 +94,8 @@ iframe {width: 100%;}
 
 
 fieldset {display: flex;} /*look at flex cheetsheet*/
+.field1 {flex-direction: column;}
+.field1 input {display: block;}
 textarea {width: 80%;}
 .conform {padding: 20% 0;}
 
@@ -154,5 +156,7 @@ footer {padding: 2% 0;}
 /*             contact form              */
 
 .conform {padding: 10% 0;}
+.field1 {flex-direction: row;
+justify-content: space-between;}
 
 }
