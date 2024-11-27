@@ -152,6 +152,10 @@ footer {padding: 2% 0;}
 .social:hover {background-color: white;}
 /*struggled with this a bit, didnt understand what parts were neccecary from the codepen*/
 
+/*             home intro              */
+
+.homeintro {padding: 10% 0;}
+
 /*             home location              */
 .homelocat {padding: 10% 0;}
 
