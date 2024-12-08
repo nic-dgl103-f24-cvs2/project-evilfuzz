@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="kehler vegtables logo" />
+      <nav>
+        <ul id="nav-items">
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="contact.html">contact</a></li>
+          <li><a href="">gallery</a></li>
+        </ul>
+        <a class="toggle" onclick="showNav()"
+          ><i class="fa fa-bars" aria-hidden="true"></i
+        ></a>
+      </nav>
+    </header>
+    <main>
+      <div class="homeintro">
+        <section class="hi content">
+          <h1>Kehler Vegetable Company</h1>
+          <p>
+            The Kehler Vegetable Company is a small family farm in black creek.
+            we love growing great food for our community! We offer fresh
+            vegetables, berries, squash, and non-GMO eggs at our farmstand.
+          </p>
+        </section>
+      </div>
+      <div class="homelocat">
+        <section class="hl content">
+          <div>
+            <h2>Where can you find us?</h2>
+            <p>We are found at:</p>
+            <address>
+              8083 N Island Highway, Black Creek, BC.<br />
+              (250) 202-3236 kehlervegetables@gmail.com
+              <br />
+              and @kehlervegetables on Facebook and Instagram
+            </address>
+            <p>The farmstand is located at the end of our driveway.</p>
+          </div>
+          <table>
+            <tr>
+              <th scope="col">day</th>
+              <th scope="col">hours</th>
+            </tr>
+            <tr>
+              <td>mon</td>
+              <td>closed</td>
+            </tr>
+            <tr>
+              <td>tues</td>
+              <td>closed</td>
+            </tr>
+            <tr>
+              <td>wed</td>
+              <td>10am - 5pm</td>
+            </tr>
+            <tr>
+              <td>thurs</td>
+              <td>10am - 5pm</td>
+            </tr>
+            <tr>
+              <td>fri</td>
+              <td>10am - 5pm</td>
+            </tr>
+            <tr>
+              <td>sat</td>
+              <td>9am - 12pm</td>
+            </tr>
+            <tr>
+              <td>sun</td>
+              <td>closed</td>
+            </tr>
+          </table>
+        </section>
+      </div>
+      <div class="homeact">
+        <section class="ha content">
+          <h2>Visit us today!</h2>
+          <p>
+            Our produce is also available through wholesale order. Please
+            contact us for more information.
+          </p>
+        </section>
+      </div>
+
+      <section class="hp">
+        <img src="images/produce1.jpg" alt="produce for sale" />
+        <img src="images/farmers.jpg" alt="the farmers responsible" />
+        <img src="images/produce2.jpg" alt="more produce for sale" />
+      </section>
+    </main>
+    <footer>
+      <div class="social">
+        <p>Check out our socials!</p>
+        <div class="footflex">
+          <a href="https://www.facebook.com/kehlervegetables"
+            ><img src="images/facebooklogo.png" alt="facebook"
+          /></a>
+          <a href="https://www.instagram.com/kehlervegetables/#"
+            ><img src="images/instalogo.png" alt="intagram"
+          /></a>
+        </div>
+        <p>© 2018</p>
+      </div>
+      <p>
+        This is a fictional website that was designed and coded as an
+        educational exercise. It is not intended to be seen outside of the class
+        environment. None of the content and images were approved by the
+        business owner.
+      </p>
+    </footer>
+
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+  </body>
+</html>
